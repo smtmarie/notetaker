@@ -22,7 +22,7 @@ router.delete("/notes/:id", function(req, res) {
     store
     .removeNote(req.params.id)
     .then(() => res.json({ ok: true}))
-    .cat(err => res.status(500).json(err));
+    .catch(err => res.status(500).json(err));
 });
 
 
