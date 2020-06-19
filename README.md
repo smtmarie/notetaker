@@ -1,6 +1,6 @@
 # Note Taker
 
-In this project, I created an application that can be used to write, save, and delete notes. This full stack application uses an Express backend and save and retrieve note data from a JSON file.
+In this project, I created an application that can be used to write, save, and delete notes. This full stack application uses an Express backend and saves and retrieves note data from a JSON file.
 
 
 ## User Story
